@@ -1,0 +1,11 @@
+>kubectl get secrets
+>kubectl create secret generic pgpassword --from-literal=PGPASSWORD='password'
+
+- name: POSTGRES_PASSWORD
+          valueFrom:
+            secretKeyRef:
+              name: pgpassword
+              key: PGPASSWORD
+  
+  
+                  

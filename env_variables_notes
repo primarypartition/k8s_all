@@ -7,5 +7,5 @@
               name: pgpassword
               key: PGPASSWORD
   
-  
-                  
+>clear && kubectl get all && kubectl get pvc && kubectl get pv && kubectl get sc && kubectl get secrets
+                 

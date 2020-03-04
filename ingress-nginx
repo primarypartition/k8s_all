@@ -1,0 +1,15 @@
+#https://github.com/kubernetes/ingress-nginx
+#https://kubernetes.github.io/ingress-nginx/deploy/
+#https://www.joyfulbikeshedding.com/blog/2018-03-26-studying-the-kubernetes-ingress-system.html
+
+>kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/nginx-0.30.0/deploy/static/mandatory.yaml --validate=false
+>minikube addons enable ingress 
+
+>kubectl get namespace
+>kubectl get pods -n ingress-nginx
+>kubectl get all -n ingress-nginx
+>clear && kubectl get all -n ingress-nginx && kubectl get pvc -n ingress-nginx && kubectl get sc -n ingress-nginx \
+&& kubectl get pv -n ingress-nginx && kubectl get secrets -n ingress-nginx
+ 
+>minikube ip
+

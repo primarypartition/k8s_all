@@ -28,7 +28,7 @@ spec:
     
  #database-persistent-volume-claim.yaml
  
- kind: PersistentVolumeClaim
+kind: PersistentVolumeClaim
 apiVersion: v1
 metadata:
   name: database-persistent-volume-claim
